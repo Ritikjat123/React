@@ -1,0 +1,28 @@
+/* Container for cards */
+.card-container {
+  display: flex;
+  gap: 20px;              /* space between cards */
+  justify-content: center;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+/* Each card */
+.card {
+  flex: 1;                /* equal width for both */
+  max-width: 400px;       /* prevents cards from becoming too wide */
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,54 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* left and right parts */
+  align-items: center;
+  padding: 12px 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  font-family: Arial, sans-serif;
+}
+
+/* Left part */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* spacing between items */
+}
+
+/* Logo */
+.logo {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
+
+/* Links */
+.navbar-left a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar-left a:hover {
+  color: #0073e6; /* hover effect */
+}
+
+/* Right part */
+.navbar-right {
+  display: flex;
+  gap: 15px;
+}
+
+/* Login/Signup styles */
+.navbar-right p {
+  margin: 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-right p:hover {
+  color: #0073e6;
+}
